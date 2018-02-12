@@ -1,0 +1,28 @@
+{
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "github": {
+      "url": "https://github.com/feigeswjtu"
+    },
+    "disqus": {
+      "shortName": "gitbookuse"
+    },
+    "baidu": {
+      "token": "3de7c992fe689f2a021a667fa59defee"
+    }
+
+  },
+  "plugins": [
+    "disqus",
+    "github",
+    "ace",
+    "splitter",
+    "baidu",
+    "codeblock-filename",
+    "sectionx",
+    "toggle-chapters",
+    "mermaid"
+    ]
+}
