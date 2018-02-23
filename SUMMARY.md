@@ -1,6 +1,8 @@
 # 序言
 
 * [序言](README.md)
+* [Java中的语法糖](syntactic_sugar.md)
+  * [泛型(generic)](syntactic_sugar/generic.md)
 * [反射系列](reflect.md)
   * [反射中的类(Class)](reflect/class.md)
   * [反射中的方法(Method)](reflect/method.md)
