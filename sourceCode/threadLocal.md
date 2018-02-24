@@ -8,6 +8,8 @@ ThreadLocal是为了解决在一个线程中，某个或者某些资源在不同
 ### 单资源单线程安全
 比如我们有两个模块，一个把资源（静态变量）增加100，一个把资源减少100，但是我们不想把资源通过参数传入，只能把这个资源设置为静态变量。
 单线程实例代码:
+ThreadLoca
+
 ```java
 import java.util.concurrent.atomic.AtomicInteger;
 
