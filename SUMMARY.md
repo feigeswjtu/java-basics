@@ -39,6 +39,7 @@
   * [Java类加载机制(初始化顺序)](jvm/ClassLoad.md)
   * [常量折叠](jvm/ConstantFolding.md)
   * [null强制转任何类型的对象](jvm/null.md)
+  * [volatile 关键字实现原理（转载）](jvm/volatile.md)
 
 * [Java杂谈](Others.md)
   * [java语言类型](others/LanguageType.md)
