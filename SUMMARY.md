@@ -1,6 +1,7 @@
 # 序言
 
 * [序言](README.md)
+
 * [Java中的语法糖](SyntacticSugar.md)
   * [泛型(generic)](syntacticSugar/generic.md)
   * [自动装箱和自动拆箱](syntacticSugar/box_unbox.md)
@@ -12,16 +13,19 @@
   * [断言](syntacticSugar/assert.md)
   * [switch对非int型的支持](syntacticSugar/switch.md)
   * [try语句的定义和关闭资源](syntacticSugar/tryCatch.md)
+
 * [反射系列](reflect.md)
   * [反射中的类(Class)](reflect/Class.md)
   * [反射中的方法(Method)](reflect/Method.md)
   * [反射中的构造器(constructor)](reflect/Constructor.md)
   * [反射中的数组](reflect/Array.md)
   * [反射中的枚举](reflect/Enum.md)
+
 * [Java常用类源码分析](SourceCode.md)
   * [ThreadLocal到底是什么？](sourceCode/ThreadLocal.md)
   * [String为什么是final的](sourceCode/String.md)
   * [Java中hashCode()和equals()详解](sourceCode/HashCodeAndEquals.md)
+
 * [Java集合框架源码分析](Collection.md)
   * [接口Iterable](collection/Iterable.md)
   * [接口Collection](collection/Collection.md)
@@ -30,10 +34,12 @@
   * [类ArrayList](collection/ArrayList.md)
   * [类Vector(几乎废弃)](collection/Vector.md)
   * [类LinkedList](collection/LinkedList.md)
+
 * [Java虚拟机(JVM)](JVM.md)
   * [Java类加载机制(初始化顺序)](jvm/ClassLoad.md)
   * [常量折叠](jvm/ConstantFolding.md)
   * [null强制转任何类型的对象](jvm/null.md)
+
 * [Java杂谈](others.md)
   * [java语言类型](others/LanguageType.md)
   * [Java中为什么没有sizeOf()](others/NoSizeOf.md)
