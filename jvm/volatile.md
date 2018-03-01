@@ -275,10 +275,10 @@ MESI协议是当前最主流的缓存一致性协议，在MESI协议中，每个
 
 那么当写两条线程Thread-A与Threab-B同时操作主存中的一个volatile变量i时，Thread-A写了变量i，那么：
 
-# Thread-A发出LOCK#指令
-# 发出的LOCK#指令锁总线（或锁缓存行），同时让Thread-B高速缓存中的缓存行内容失效
-# Thread-A向主存回写最新修改的i
-# Thread-B读取变量i，那么：
+1. Thread-A发出LOCK#指令
+2. 发出的LOCK#指令锁总线（或锁缓存行），同时让Thread-B高速缓存中的缓存行内容失效
+3. Thread-A向主存回写最新修改的i
+4. Thread-B读取变量i，那么：
 
 Thread-B发现对应地址的缓存行被锁了，等待锁的释放，缓存一致性协议会保证它读取到最新的值
 由此可以看出，volatile关键字的读和普通变量的读取相比基本没差别，差别主要还是在变量的写操作上。
