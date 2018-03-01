@@ -14,7 +14,7 @@
   * [switch对非int型的支持](syntacticSugar/switch.md)
   * [try语句的定义和关闭资源](syntacticSugar/tryCatch.md)
 
-* [反射系列](reflect.md)
+* [反射系列](Reflect.md)
   * [反射中的类(Class)](reflect/Class.md)
   * [反射中的方法(Method)](reflect/Method.md)
   * [反射中的构造器(constructor)](reflect/Constructor.md)
@@ -40,7 +40,7 @@
   * [常量折叠](jvm/ConstantFolding.md)
   * [null强制转任何类型的对象](jvm/null.md)
 
-* [Java杂谈](others.md)
+* [Java杂谈](Others.md)
   * [java语言类型](others/LanguageType.md)
   * [Java中为什么没有sizeOf()](others/NoSizeOf.md)
   * [Java中普通代码块和static代码块的区别](others/CodeBlock.md)
